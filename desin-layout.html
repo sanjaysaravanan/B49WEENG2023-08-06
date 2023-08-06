@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    header {
+      min-height: 75px;
+      width: 100vw;
+      background-color: orange;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 3;
+    }
+
+    .sidebar {
+      position: fixed;
+      width: 240px;
+      height: 100vh;
+      background-color: aquamarine;
+    }
+
+    .content {
+      margin-top: 75px;
+      margin-left: 240px;
+    }
+
+    .border-one {
+      border: 1px solid;
+    }
+
+    .mb-16 {
+      margin-bottom: 16px;
+    }
+
+    .m-16 {
+      margin: 16px;
+    }
+
+    .p-16 {
+      padding: 16px;
+    }
+
+    .content-header {
+      height: 250px;
+    }
+
+    .h-500 {
+      height: 500px;
+    }
+
+    .d-flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .inner-col-one {
+      /* height: 500px; */
+      width: calc(70% - 32px);
+    }
+
+    .inner-col-two {
+      /* height: 500px; */
+      width: calc(30% - 34px);
+    }
+
+
+    /* Mobile 300 - 500px */
+    @media screen and (min-width: 250px) and (max-width: 500px) {
+      .sidebar {
+        width: 75px;
+      }
+
+      .content {
+        margin-left: 75px;
+      }
+
+      .inner-col-one {
+        width: calc(100% - 32px);
+      }
+
+      .inner-col-two {
+        /* height: 500px; */
+        width: calc(100% - 34px);
+      }
+    }
+
+    /* Tab 500 - 1000px */
+    @media screen and (min-width: 500px) and (max-width: 1000px) {
+      .sidebar {
+        width: 120px;
+      }
+
+      .content {
+        margin-left: 120px;
+      }
+
+      .inner-col-one {
+        width: calc(100% - 32px);
+      }
+
+      .inner-col-two {
+        width: calc(100% - 34px);
+      }
+    }
+
+    /* Laptop 1000px and above  */
+  </style>
+
+</head>
+
+<body>
+  <header></header>
+  <div class="sidebar">
+  </div>
+  <div class="content p-16">
+    <div class="content-header border-one mb-16"></div>
+    <div class="border-one mb-16 d-flex">
+      <div class="m-16 inner-col-one">
+        <div class="border-one mb-16" style="height: 150px;"></div>
+        <div class="border-one" style="height: 300px;"></div>
+      </div>
+      <div class="h-500 border-one m-16 inner-col-two"></div>
+    </div>
+  </div>
+</body>
+
+</html>

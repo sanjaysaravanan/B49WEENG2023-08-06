@@ -1,0 +1,60 @@
+
+Topics:
+
+  Desing and CSS approach for html pages:
+    Desinged a simple layout with responsiveness
+
+  variables:
+    stores a single value reference which can used across css
+
+  Bootstrap:
+
+    CSS file which gives a large set predefined CSS styles ( classes, tags )
+
+    general utilities:
+      colors:
+        bg-primary, bg-secondary, bg-dark ...
+      typography:
+      table, forms
+      
+      existing templates
+    
+    responsiveness using Bootstrap:
+
+      breakpoints
+
+      containers
+
+      
+
+Task:
+From the below Title you can pick any two and complete them with responsive design.
+
+For your reference visit this URL 
+https://github.com/rvsp/HTML-CSS/tree/master/Tasks
+
+2023-08-06 to 2023-06-12: 
+  try implementing any two design with normal Media Query Appraoch
+  Note: Not yet discussed about grid-system in bootstrap
+
+  Note down problems and dicuss in on 2023-08-12 
+
+2023-08-13 to 2023-06-17: Complete the Task 
+
+Last Submission Date: 2023-08-18
+
+Next Session:
+  Bootstrap:
+    grid
+      container > row > col
+
+      specific to devices
+  CSS:
+    Transitions
+    Animations
+    Transform
+    variables
+    Pseudo Classes
+    SASS
+
+    

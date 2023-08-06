@@ -1,0 +1,13 @@
+:root {
+  --batch-name: orange;
+}
+
+
+.something {
+  color: var(--batch-name);
+}
+
+
+.something-second {
+  color: var(--batch-name);
+}
